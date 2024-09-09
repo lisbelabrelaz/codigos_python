@@ -1,7 +1,7 @@
 #Solicita o nome da fazenda ao usuário
 nome_fazenda = input("Informe o nome da fazenda")
 #Solicita a quantidade de cavalos ao usuário
-quantidade_cavalos = int(input("Informe a quantidade de cavalos ao usuário {nome_fazenda}"))
+quantidade_cavalos = int(input("Informe a quantidade de cavalos"))
 #Calcule a quantidade de ferraduras necessárias (4 por cavalo)
 quantidade_ferraduras = quantidade_cavalos * 4
 
