@@ -1,13 +1,13 @@
 while True:
- numero = int(input("Digite um numero inteiro: "))
+   numero = int(input("Digite um numero inteiro: "))
 
- if numero < 0:
-   break
- elif numero > 100:
+   if numero < 0:
+    break
+   elif numero > 100:
     print("Limite excedido")
- elif numero > 10:
+   elif numero > 10:
     print(numero**2)
- elif numero > 5:
+   elif numero > 5:
     print(numero**3)
 
 
