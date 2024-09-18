@@ -1,4 +1,4 @@
-
+lista_usuario = []
 # Solicitar 10 números inteiros ao usuário
 for i in range(10):
     numero = int(input(f"Digite o {i+1}º número inteiro: "))
